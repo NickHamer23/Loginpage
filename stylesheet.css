@@ -1,0 +1,27 @@
+body{
+    background-image: url(assests/backgroundimg.jpg);
+    background-size:cover;
+    background-position: center;
+    background-color: lightgreen;
+    max-height: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+main div{
+    position:absolute;
+    background-color: lightgrey;
+    box-shadow:10px 10px 8px 10px #888888;
+    height: 500px;
+    width: 300px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+main form{
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
